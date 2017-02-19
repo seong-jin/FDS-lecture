@@ -3,8 +3,8 @@
 
 
 
-- [x] Editor - Atom
+- [x] [Editor - Atom](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/editor_Atom.md)
 
-- [x] Editor - Visual Studio Code
+- [x] [Editor - Visual Studio Code](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/editor_VSCode.md)
 
-- [ ]  Browser 필수 앱 정리
+- [ ] [Browser 필수 앱 정리](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/browser.md)
