@@ -96,8 +96,7 @@ $!$ 지나치게 많은 package를 설치할 경우, 프로그램이 느려질 �
 
 ### pigments
 	A package to display colors in project and files.
-	다양한 설정이 있으니 위 링크에서 확인해 보세요.
-
+	
 * 설명 : https://atom.io/packages/pigments
 
 
