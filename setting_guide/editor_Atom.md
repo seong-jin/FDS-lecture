@@ -42,9 +42,33 @@
 
 
 
-## 4. 주요 package 모음
+## 4. 단축키 수정
 
-$!$ 지나치게 많은 package를 설치할 경우, 프로그램이 느려질 수 있음
+(1) Setting (`Ctrl` + `,` ) > Keybindings > 필요한 기능 검색
+* Keystroke 목록 앞의 아이콘을 클릭하여 해당 코드 복사
+
+
+(2) `(1)` 상단의 your keymap file 링크 클릭 or File > Keymap 클릭
+* keymap.cson 파일에 `(1)` 에서 복사한 코드 붙여넣기
+
+	```json
+	'atom-text-editor:not([mini])':
+		'ctrl-e': 'emmet:expand-abbreviation'
+		'ctrl-shift-w': 'emmet:wrap-with-abbreviation'
+
+	'atom-workspace, atom-workspace atom-text-editor':
+		'ctrl-shift-M': 'markdown-preview-plus:toggle'
+		'ctrl-shift-X': 'markdown-preview-plus:toggle-render-latex'
+	```
+
+* cf) `ctrl-shift-w` 기본 값이 아톰을 닫는 단축키이므로 의도치 않게 에디터가 꺼지는 것을 막기 위해 Emmet의 wrap width abbreviation 의 단축키로 지정
+
+
+
+
+## 5. 주요 package 모음
+
+$!$ 지나치게 많은 package를 설치할 경우, 프로그램이 느려질 수 있으니 주의
 
 
 
