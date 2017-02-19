@@ -3,7 +3,7 @@
 
 
 
-## 참고 링크
+## 0. 참고 링크
 * 다운로드 : https://atom.io/
 * 단축키 및 설정 : http://naradesign.net/wp/2016/10/12/2212/
 * Atom 스니펫 설정 : http://recoveryman.tistory.com/237
@@ -11,7 +11,7 @@
 
 
 
-## 기본 정보
+## 1. 기본 정보
 * 프로젝트 추가 : File > Add Project Folder
 * 사이드바 : View > Toggle Tree View (Sidebar Toggle)
 * 셋팅 : `File > Settings (windows)` | `Atom > Preferences (mac)`
@@ -21,7 +21,7 @@
 
 
 
-## 기본 단축키 및 설정[^1]
+## 2. 기본 단축키 및 설정
 
 | 기능 | 단축키 |
 |---|---|
@@ -29,12 +29,12 @@
 | Tree View (사이드바) 보기 | `ctrl` + `\` |
 | 멀티 커서 | `Ctrl` + 클릭 |
 | 동일 구문 찾기(멀티블럭 상태) | 블럭 지정 후, `Ctrl` + `d` |
-| 자동 줄바꿈[^3] | Setting (`ctrl` + `,`) > Editor > Soft Wrap |
+| 자동 줄바꿈 | Setting (`ctrl` + `,`) > Editor > Soft Wrap |
 
 
 
 
-## 테마 설정
+## 3. 테마 설정
 * 테마 설치 : Settings > install > themes 검색
 * 테마 선택 : Settings > themes > UI Theme / Syntax Theme
 * 추천테마 : one dark (기본)
@@ -42,7 +42,7 @@
 
 
 
-## 주요 package 모음
+## 4. 주요 package 모음
 
 $!$ 지나치게 많은 package를 설치할 경우, 프로그램이 느려질 수 있음
 
@@ -122,6 +122,3 @@ $!$ 지나치게 많은 package를 설치할 경우, 프로그램이 느려질 �
 
 
 ---
-
-[^1]: 오류나 추가할 내용이 있으면 알려주세요.
-[^2]: 하단 가로바가 생기는 것을 막아줌
