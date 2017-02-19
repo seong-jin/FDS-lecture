@@ -51,7 +51,7 @@
 (2) `(1)` 상단의 your keymap file 링크 클릭 or File > Keymap 클릭
 * keymap.cson 파일에 `(1)` 에서 복사한 코드 붙여넣기
 
-	```json
+	```cson
 	'atom-text-editor:not([mini])':
 		'ctrl-e': 'emmet:expand-abbreviation'
 		'ctrl-shift-w': 'emmet:wrap-with-abbreviation'
