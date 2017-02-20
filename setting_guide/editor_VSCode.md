@@ -17,7 +17,7 @@
 
 
 ### View In Browser
-* 브라우저 보기 :	`Ctrl` + `F1`
+* 브라우저 보기 : `Ctrl` + `F1`
 * 브라우저 셋팅 : 파일 > 기본 설정 > 설정
 	```json
 	{
@@ -65,7 +65,7 @@ Indented Sass syntax highlighting, autocomplete & snippets for VSCode
 ### Color Picker
 
 * `Alt` + `C`   `P`
-
+* `Alt` + `C`   `Alt` + `P` 로 변경
 
 
 
@@ -122,7 +122,7 @@ Supports JSDoc and Closure Compiler tags :
 	"editor.insertSpaces": false,
 	"editor.wrappingColumn": 0,
 	"editor.renderIndentGuides": true,
-	"view-in-browser.customBrowser": "firefox",
+	"view-in-browser.customBrowser": "chrome",
 }
 ```
 
@@ -138,25 +138,32 @@ Supports JSDoc and Closure Compiler tags :
 ```json
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
 [
+	// emmet 실행
 	{ "key": "ctrl+e",
 		"command": "editor.emmet.action.expandAbbreviation",
 		"when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus" },
-
+	// 계산
 	{ "key": "ctrl+shift+y",
 		"command": "editor.emmet.action.evaluateMath",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
-
+	// 요소 감싸기
 	{ "key": "ctrl+w",
 		"command": "editor.emmet.action.wrapWithAbbreviation",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
 	
-	{ "key": "ctrl+l l",
+	// 블럭지정 또는 포커스된 문자 - 소문자로
+	{ "key": "ctrl+l ctrl+l",
 		"command": "editor.action.transformToLowercase",
-		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
-
-	{ "key": "ctrl+l k",
+		"when": "editorTextFocus" },
+		
+	// 블럭지정 또는 포커스된 문자 - 대문자로
+	{ "key": "ctrl+l ctrl+k",
 		"command": "editor.action.transformToUppercase",
-		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" }
-
+		"when": "editorTextFocus" },
+		
+	// 컬러 피커 사용
+	{ "key": "alt+c alt+p",
+		"command": "extension.colorHelper.pick",
+		"when": "editorTextFocus" },
 ]
 ```
