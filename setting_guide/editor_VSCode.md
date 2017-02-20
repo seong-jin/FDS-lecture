@@ -27,7 +27,7 @@
 	// 브라우저 : firefox, chrome, iexplore, Safari
 	// mozilla 인식되지 않고 firefox 로 인식됨
 	```
-$cf)$ Firefox 로 파일을 열 때는 `mozilla` 또는 `firefox`로 값을 넣어줄 것
+cf) Firefox 로 파일을 열 때는 `mozilla` 또는 `firefox`로 값을 넣어줄 것
 
 
 
