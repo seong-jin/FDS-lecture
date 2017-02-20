@@ -148,6 +148,15 @@ Supports JSDoc and Closure Compiler tags :
 
 	{ "key": "ctrl+w",
 		"command": "editor.emmet.action.wrapWithAbbreviation",
+		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
+	
+	{ "key": "ctrl+l l",
+		"command": "editor.action.transformToLowercase",
+		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
+
+	{ "key": "ctrl+l k",
+		"command": "editor.action.transformToUppercase",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" }
+
 ]
 ```
