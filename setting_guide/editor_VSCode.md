@@ -112,6 +112,10 @@ Supports JSDoc and Closure Compiler tags :
 	setting.json 의 사용자 설정 수정
 	각자 스타일로 셋팅
 
+> [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
+
+
+
 ```json
 {
 	"editor.tabSize": 2,
@@ -136,7 +140,6 @@ Supports JSDoc and Closure Compiler tags :
 }
 ```
 
-* [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
 
 
 
@@ -146,6 +149,10 @@ Supports JSDoc and Closure Compiler tags :
 	파일 > 기본 설정 > 바로가기키
 	keybindings.json 수정
 	각자 스타일로 셋팅
+
+> [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+
 
 ```json
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
@@ -179,10 +186,6 @@ Supports JSDoc and Closure Compiler tags :
 		"when": "editorTextFocus" }
 ]
 ```
-
-* [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-
-
 
 
 
