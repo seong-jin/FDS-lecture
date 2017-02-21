@@ -16,7 +16,7 @@
 
 
 
-### View In Browser
+### 1-1. View In Browser
 * 브라우저 보기 : `Ctrl` + `F1`
 * 브라우저 셋팅 : 파일 > 기본 설정 > 설정
   ```json
@@ -32,17 +32,17 @@
 
 
 
-### ESLint
+### 1-2. ESLint
 	문법 오류 감지
 
 
 
-### Guides
+### 1-3. Guides
 	Tab 세로 가이드 라인
 
 
 
-### Sass
+### 1-4. Sass
 ```
 Indented Sass syntax highlighting, autocomplete & snippets for VSCode
 ```
@@ -62,14 +62,14 @@ Indented Sass syntax highlighting, autocomplete & snippets for VSCode
 
 
 
-### Color Picker
+### 1-5. Color Picker
 
 * `Alt` + `C`   `P`
 * `Alt` + `C`   `Alt` + `P` 로 변경
 
 
 
-### Document This
+### 1-6. Document This
 * "Document This" is a Visual Studio Code extension that automatically generates detailed JSDoc comments for both TypeScript and JavaScript files.
 * 설명 : https://marketplace.visualstudio.com/items?itemName=joelday.docthis
 
@@ -94,7 +94,7 @@ Supports JSDoc and Closure Compiler tags :
 
 
 
-### TabSpacer
+### 1-7. TabSpacer
 | 단축키                    | 기능 설명             |
 | ---------------------- | ----------------- |
 | `Ctrl` + `Shift` + `S` | 공백을 탭으로 변경        |
