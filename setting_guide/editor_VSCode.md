@@ -180,3 +180,12 @@ Supports JSDoc and Closure Compiler tags :
 ]
 ```
 
+* [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+
+
+
+
+
+
+---
