@@ -179,4 +179,3 @@ Supports JSDoc and Closure Compiler tags :
 		"when": "editorTextFocus" }
 ]
 ```
-
