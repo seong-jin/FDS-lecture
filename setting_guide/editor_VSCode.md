@@ -112,8 +112,6 @@ Supports JSDoc and Closure Compiler tags :
 	setting.json 의 사용자 설정 수정
 	각자 스타일로 셋팅
 
-> [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
-
 
 
 ```json
@@ -131,12 +129,25 @@ Supports JSDoc and Closure Compiler tags :
 	"editor.cursorStyle": "underline",
 	"view-in-browser.customBrowser": "chrome",
 	"emmet.triggerExpansionOnTab": false,
-	"emmet.syntaxProfiles": {},
-	
-	// 언어 식별자 집합에 대해 재정의할 설정을 구성합니다.
-  	// ex) tabSize를 기본 2로 하고 javascript 에서는 4로 하고 싶을 때
-  	// "[javascript]": {"editor.tabSize": 4}
- 	"[]": {}
+	"emmet.syntaxProfiles": {}	
+}
+```
+
+
+
+**※ Program Language 별 개별 셋팅 방법** 
+
+* 참고자료 : [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
+
+- ex) tabSize를 기본 2로 하고 javascript 에서는 4로 하고 싶을 때
+
+```json
+{
+  "editor.tabSize": 2,
+  
+  "[javascript]": {
+    "editor.tabSize": 4
+  }
 }
 ```
 
@@ -150,9 +161,7 @@ Supports JSDoc and Closure Compiler tags :
 	keybindings.json 수정
 	각자 스타일로 셋팅
 
-> [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-
-
+* 참고 자료 :  [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ```json
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
@@ -161,11 +170,11 @@ Supports JSDoc and Closure Compiler tags :
 	{ "key": "ctrl+e",
 		"command": "editor.emmet.action.expandAbbreviation",
 		"when": "editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus" },
-	// 계산
+	// emmet 계산
 	{ "key": "ctrl+shift+y",
 		"command": "editor.emmet.action.evaluateMath",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
-	// 요소 감싸기
+	// emmet 요소 감싸기
 	{ "key": "ctrl+w",
 		"command": "editor.emmet.action.wrapWithAbbreviation",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
@@ -191,4 +200,7 @@ Supports JSDoc and Closure Compiler tags :
 
 
 
+
+
 ---
+
