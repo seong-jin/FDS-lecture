@@ -137,7 +137,7 @@ Supports JSDoc and Closure Compiler tags :
 
 **※ Programming Language 별 셋팅 방법** 
 
-* 참고자료 : [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
+* 참고자료 : [Language specific editor settings](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
 
 - ex) tabSize를 기본 2로 하고 javascript 에서는 4로 하고 싶을 때
 
