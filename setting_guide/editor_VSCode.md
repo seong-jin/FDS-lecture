@@ -103,6 +103,16 @@ Supports JSDoc and Closure Compiler tags :
 
 
 
+### 1-8. Insert Date String
+
+```
+Insert the current date and time according to configured format.
+```
+
+* 기본 날짜형식 : `YYYY-MM-DD` `hh:mm:ss`
+* 기본 단축키 : `ctrl` + `shift` + `I`
+* 날짜 형식변경 : `ctrl` + `shift` + `alt` + `I`
+
 
 
 
@@ -121,15 +131,18 @@ Supports JSDoc and Closure Compiler tags :
 	"window.zoomLevel": 1,
 	"files.trimTrailingWhitespace": true,
 	"editor.wordWrap": false,
-	"editor.renderWhitespace": "boundary",
+	"editor.renderWhitespace": "none",
 	"editor.renderControlCharacters": true,
 	"editor.insertSpaces": false,
 	"editor.wrappingColumn": 0,
-	"editor.renderIndentGuides": true,
+	"editor.renderIndentGuides": false,
 	"editor.cursorStyle": "underline",
 	"view-in-browser.customBrowser": "chrome",
 	"emmet.triggerExpansionOnTab": false,
-	"emmet.syntaxProfiles": {}	
+	"emmet.syntaxProfiles": {},
+	"insertdatestring.format": "YYYY-MM-DD",
+
+	"[]": {}
 }
 ```
 
@@ -170,11 +183,11 @@ Supports JSDoc and Closure Compiler tags :
 	{ "key": "ctrl+e",
 		"command": "editor.emmet.action.expandAbbreviation",
 		"when": "editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus" },
-	// emmet 계산
+	// 계산
 	{ "key": "ctrl+shift+y",
 		"command": "editor.emmet.action.evaluateMath",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
-	// emmet 요소 감싸기
+	// 요소 감싸기
 	{ "key": "ctrl+w",
 		"command": "editor.emmet.action.wrapWithAbbreviation",
 		"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
@@ -183,7 +196,6 @@ Supports JSDoc and Closure Compiler tags :
 	{ "key": "ctrl+l ctrl+l",
 		"command": "editor.action.transformToLowercase",
 		"when": "editorTextFocus" },
-
 	// 블럭지정 또는 포커스된 문자 - 대문자로
 	{ "key": "ctrl+l ctrl+k",
 		"command": "editor.action.transformToUppercase",
@@ -192,7 +204,13 @@ Supports JSDoc and Closure Compiler tags :
 	// 컬러 피커 사용
 	{ "key": "alt+c alt+p",
 		"command": "extension.colorHelper.pick",
+		"when": "editorTextFocus" },
+
+	// 오늘 날짜 입력
+	{ "key": "ctrl+d",
+		"command": "insertdatestring.insertdatetime",
 		"when": "editorTextFocus" }
+
 ]
 ```
 
