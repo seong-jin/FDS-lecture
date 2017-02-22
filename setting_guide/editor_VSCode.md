@@ -109,9 +109,8 @@ Insert the current date and time according to configured format.
 ```
 
 * 기본 날짜형식 : YYYY-MM-DD hh:mm:ss  →  `YYYY-MM-DD` 로 변경
-* 기본 단축키 : ctrl + shift + i → `ctrl` + `d` 로 변경
+* 기본 단축키 : `ctrl` + `shift` + `i` 
 * 날짜 형식변경 및 날짜입력 : `ctrl` + `shift` + `alt` + `i`  입력 후, 명령창에서 형식 변경
-
 
 
 
@@ -219,11 +218,6 @@ Insert the current date and time according to configured format.
 	// 컬러 피커 사용
 	{ "key": "alt+c alt+p",
 		"command": "extension.colorHelper.pick",
-		"when": "editorTextFocus" },
-
-	// 오늘 날짜 입력
-	{ "key": "ctrl+d",
-		"command": "insertdatestring.insertdatetime",
 		"when": "editorTextFocus" }
 
 ]
