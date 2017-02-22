@@ -117,6 +117,12 @@ Insert the current date and time according to configured format.
 
 
 
+---
+
+
+
+
+
 ## 2. 기본설정 수정
 	파일 > 기본 설정 > 설정
 	setting.json 의 사용자 설정 수정
@@ -163,6 +169,16 @@ Insert the current date and time according to configured format.
   }
 }
 ```
+
+
+
+
+
+
+
+---
+
+
 
 
 
