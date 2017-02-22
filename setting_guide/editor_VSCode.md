@@ -64,7 +64,7 @@ Indented Sass syntax highlighting, autocomplete & snippets for VSCode
 
 ### 1-5. Color Picker
 
-* 단축키 : Alt + C  P →  `Alt` + `C`   `Alt` + `P` 로 변경
+* 단축키 : Alt + C  P →  `Alt` + `C`  and after,  `Alt` + `P` 로 변경
 
 
 
