@@ -135,7 +135,7 @@ Supports JSDoc and Closure Compiler tags :
 
 
 
-**※ Program Language 별 개별 셋팅 방법** 
+**※ Programming Language 별 셋팅 방법** 
 
 * 참고자료 : [언어별 개별설정 방법 상세 페이지 링크](https://code.visualstudio.com/docs/customization/userandworkspace#_language-specific-editor-settings)
 
