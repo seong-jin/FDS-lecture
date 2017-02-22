@@ -64,8 +64,7 @@ Indented Sass syntax highlighting, autocomplete & snippets for VSCode
 
 ### 1-5. Color Picker
 
-* `Alt` + `C`   `P`
-* `Alt` + `C`   `Alt` + `P` 로 변경
+* 단축키 : Alt + C  P →  `Alt` + `C`   `Alt` + `P` 로 변경
 
 
 
@@ -109,9 +108,9 @@ Supports JSDoc and Closure Compiler tags :
 Insert the current date and time according to configured format.
 ```
 
-* 기본 날짜형식 : `YYYY-MM-DD` `hh:mm:ss`
-* 기본 단축키 : `ctrl` + `shift` + `I`
-* 날짜 형식변경 : `ctrl` + `shift` + `alt` + `I`
+* 기본 날짜형식 : YYYY-MM-DD hh:mm:ss  →  `YYYY-MM-DD` 로 변경
+* 기본 단축키 : ctrl + shift + I → `ctrl` + `d` 로 변경
+* 날짜 형식변경 및 날짜입력 : `ctrl` + `shift` + `alt` + `I`  입력 후, 명령창에서 형식 변경
 
 
 
