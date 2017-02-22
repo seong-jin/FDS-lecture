@@ -109,8 +109,8 @@ Insert the current date and time according to configured format.
 ```
 
 * 기본 날짜형식 : YYYY-MM-DD hh:mm:ss  →  `YYYY-MM-DD` 로 변경
-* 기본 단축키 : ctrl + shift + I → `ctrl` + `d` 로 변경
-* 날짜 형식변경 및 날짜입력 : `ctrl` + `shift` + `alt` + `I`  입력 후, 명령창에서 형식 변경
+* 기본 단축키 : ctrl + shift + i → `ctrl` + `d` 로 변경
+* 날짜 형식변경 및 날짜입력 : `ctrl` + `shift` + `alt` + `i`  입력 후, 명령창에서 형식 변경
 
 
 
