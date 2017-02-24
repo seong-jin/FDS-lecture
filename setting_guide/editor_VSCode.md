@@ -223,7 +223,9 @@ Supports text alignment and multi-cursor alignment.
 
 * 참고 자료 :  [VS Code 기본 단축키 일람 PDF 문서](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-```json
+
+
+```
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
 [
 	// emmet 실행
