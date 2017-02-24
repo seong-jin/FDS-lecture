@@ -273,9 +273,9 @@ Supports text alignment and multi-cursor alignment.
 
 
 1.  명령어 창 열어 snippet 검색 :  `ctrl` + `shift` + `p`  snippet
-2. 사용자 코드 조각 열기 - Preferences Snippets 선택
-3. html / javascript 등 언어 선택
-4. 해당 json 파일이 열리면 아래와 같은 형식으로 내용 수정
+2.  사용자 코드 조각 열기 - Preferences Snippets 선택
+3.  html / javascript 등 언어 선택
+4.  해당 json 파일이 열리면 아래와 같은 형식으로 내용 수정
 
 
 
@@ -298,7 +298,7 @@ Supports text alignment and multi-cursor alignment.
 
 
 
-* html 파일에서 `html!` 를 스니펫으로 설정한 파일
+* html 파일에서 `html!` 를 `HTML5 기본 템플릿` `스니펫`으로 설정한 코드
 
 ```json
 {
