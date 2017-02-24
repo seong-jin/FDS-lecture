@@ -264,6 +264,12 @@ Supports text alignment and multi-cursor alignment.
 
 ## 4. Snippet
 
+
+
+* 파일 > 기본 설정 > 사용자 코드 조각
+
+
+
 1.  명령어 창 열어 snippet 검색 :  `ctrl` + `shift` + `p`  snippet
 2. 사용자 코드 조각 열기 - Preferences Snippets 선택
 3. html / javascript 등 언어 선택
@@ -271,10 +277,7 @@ Supports text alignment and multi-cursor alignment.
 
 
 
-* 파일 > 기본 설정 > 사용자 코드 조각
-
-```json
-/*
+```
 {
 	// Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
@@ -289,8 +292,13 @@ Supports text alignment and multi-cursor alignment.
 	],
 	"description": "Log output to console"
 }
-*/
+```
 
+
+
+* html 파일에서 `html!` 를 스니펫으로 설정한 파일
+
+```json
 {
 	"html5 doctype": {
 		"prefix": "html!",
