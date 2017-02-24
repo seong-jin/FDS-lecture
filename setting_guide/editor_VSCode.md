@@ -30,7 +30,7 @@
   cf) Firefox 로 파일을 열 때는 `mozilla` 또는 `firefox`로 값을 넣어줄 것
 
 
-
+-
 
 ### 1-2. ESLint
 	문법 오류 감지
@@ -39,7 +39,7 @@
 
 ### 1-3. Guides
 	Tab 세로 가이드 라인
-
+-
 
 
 ### 1-4. Sass
@@ -60,15 +60,17 @@ Indented Sass syntax highlighting, autocomplete & snippets for VSCode
   ```
 
 
-
+-
 
 ### 1-5. Color Picker
 
 * 단축키 : Alt + C  P →  `Alt` + `C`  and after,  `Alt` + `P` 로 변경
 
 
+-
 
 ### 1-6. Document This
+
 * "Document This" is a Visual Studio Code extension that automatically generates detailed JSDoc comments for both TypeScript and JavaScript files.
 * 설명 : https://marketplace.visualstudio.com/items?itemName=joelday.docthis
 
@@ -90,7 +92,7 @@ Supports JSDoc and Closure Compiler tags :
 ##### Document Everything Visible
 `Ctrl` + `Alt` + `D` and after `Ctrl` + `Alt` + `V`
 	Generates documentation for exported, public and protected symbols in the document.
-
+-
 
 
 ### 1-7. TabSpacer
@@ -101,6 +103,8 @@ Supports JSDoc and Closure Compiler tags :
 | `Ctrl` + `Shift` + `Z` | 탭모양 - 탭/공백 토글로 지정 |
 
 
+
+-
 
 ### 1-8. Insert Date String
 
@@ -115,11 +119,33 @@ Insert the current date and time according to configured format.
 
 
 
----
+-
+
+### 1-9. Path Intellisense 
+
+```
+Visual Studio Code plugin that autocompletes filenames.
+
+파일 경로 및 파일명 자동완성 기능
+```
 
 
 
+-
 
+
+
+### 1-10. Align
+
+```
+Supports text alignment and multi-cursor alignment.
+```
+
+* `ctrl` + `alt` + `a`
+
+
+
+-
 
 ## 2. 기본설정 수정
 	파일 > 기본 설정 > 설정
