@@ -293,7 +293,7 @@ Supports text alignment and multi-cursor alignment.
 
 {
 	"html5 doctype": {
-		"prefix": "html5",
+		"prefix": "html!",
 		"body": [
 			"<!DOCTYPE html>",
 			"<html lang='ko'>",
