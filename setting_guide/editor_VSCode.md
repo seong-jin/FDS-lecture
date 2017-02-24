@@ -34,7 +34,7 @@
 
 ### 1-2. ESLint
 	문법 오류 감지
-
+-
 
 
 ### 1-3. Guides
@@ -91,11 +91,18 @@ Supports JSDoc and Closure Compiler tags :
 
 ##### Document Everything Visible
 `Ctrl` + `Alt` + `D` and after `Ctrl` + `Alt` + `V`
+
+
+
 	Generates documentation for exported, public and protected symbols in the document.
+
+
 -
 
 
+
 ### 1-7. TabSpacer
+
 | 단축키                    | 기능 설명             |
 | ---------------------- | ----------------- |
 | `Ctrl` + `Shift` + `S` | 공백을 탭으로 변경        |
