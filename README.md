@@ -1,10 +1,4 @@
-# 개발환경 셋팅 자료 모음
+#3rd FDS 관련 파일 임시 저장소  
 
-
-
-
-- [x] [Editor - Atom](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/editor_Atom.md)
-- [x] [Editor - Visual Studio Code](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/editor_VSCode.md)
-- [ ] [Node Sass Setting](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/Node_Sass.md)
-- [ ] [Browser 필수 앱 정리](https://github.com/seong-jin/FDS-lecture/blob/master/setting_guide/browser.md)
+추후 분야 별 정리 예정
 
