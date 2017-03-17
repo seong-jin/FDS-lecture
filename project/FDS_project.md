@@ -89,7 +89,7 @@ ex) Total : 49 / 50pages (전체진행율 98%)
 
 #### ◎ UX / UI 벤치마크
 
-* 파일을 찾아가는 방식
+* 트리구조, 파일 상세 내용, 내용 추가/수정/삭제 
   * Taasky - Beautiful Task & To-Do List https://capptivate.co/2013/11/19/445/
 * 추가 벤치마크 필요
 
