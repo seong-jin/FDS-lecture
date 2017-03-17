@@ -232,7 +232,7 @@ ex) Total : 49 / 50pages (전체진행율 98%)
 ```
 ◎ 테스크 프로세스 앱
 
-VueJS 필수로 사용해야 됨
+본 프로젝트 진행에는 VueJS를 필수로 사용해야 됨
   - Vue JS
   - Vue-material (component 단위)
   - Vue-resource
